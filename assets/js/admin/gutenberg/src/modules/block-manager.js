@@ -13,6 +13,7 @@ import { Border } from "./controls/border";
 import { Typography } from "./controls/typography";
 import { Select } from "./controls/select";
 import { Text } from "./controls/text";
+import { BoxShadow } from "./controls/box-shadow";
 
 const { addFilter } = wp.hooks;
 
@@ -43,6 +44,7 @@ class JetBlockManager {
 			Typography: Typography,
 			Select: Select,
 			Text: Text,
+			BoxShadow: BoxShadow,
 		};
 	}
 
